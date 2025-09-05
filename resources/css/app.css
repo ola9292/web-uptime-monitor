@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container-lg{
+    width: 700px;
+    max-width: 85%;
+    /* border: 1px solid black; */
+    margin: 40px auto;
+}
+.container-sm{
+    width: 500px;
+    max-width: 85%;
+    /* border: 1px solid black; */
+    margin: 40px auto;
+}
+.text-center{
+    text-align: center;
+}
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.black{
+    color: #000000;
+}
+.site-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.form-input{
+    display: grid;
+    gap: 15px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.col > input{
+    padding: 10px;
+
+}
+button{
+    padding: 10px;
+    background-color: purple;
+    border: none;
+    color: white;
+}
+/* .col-btn{
+    display: flex;
+    justify-content: center;
+} */
