@@ -5,7 +5,7 @@ Website Uptime Keeper is a simple yet powerful tool designed to monitor your web
 # Motivation
 As a web developer myself, I know how critical it is to keep websites running smoothly. Website Uptime Keeper was born from that need a practical solution to save time and reduce stress. Using my expertise in this area, I created this app to help others monitor their online presence with ease, so you can focus on what matters most: building and growing your digital world.
 # Screenshot
-![image alt]()
+![image alt](https://github.com/ola9292/web-uptime-monitor/blob/a872c344aeb4b3f0275f75f96883945b5c7cbf7f/Screenshot%202025-09-05%20at%209.32.55%20pm.png)
 # Framework
 Vue js
 # How to use
