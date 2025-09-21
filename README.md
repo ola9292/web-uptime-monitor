@@ -7,7 +7,7 @@ As a web developer myself, I know how critical it is to keep websites running sm
 # Screenshot
 ![image alt](https://github.com/ola9292/web-uptime-monitor/blob/a872c344aeb4b3f0275f75f96883945b5c7cbf7f/Screenshot%202025-09-05%20at%209.32.55%20pm.png)
 # Framework
-Vue js
+Vue js, Laravel, Inertia, Apis
 # How to use
 Click on the add link, enter your website name and url and the app monitors your website and gies a realtime update.
 
