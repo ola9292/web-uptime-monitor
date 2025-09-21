@@ -9,6 +9,6 @@ As a web developer myself, I know how critical it is to keep websites running sm
 # Framework
 Vue js, Laravel, Inertia, Apis
 # How to use
-Click on the add link, enter your website name and url and the app monitors your website and gies a realtime update.
+Click on the add link, enter your website name and url and the app monitors your website and gives a realtime update.
 
 
