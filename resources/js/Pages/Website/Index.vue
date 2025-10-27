@@ -23,15 +23,19 @@ import axios from 'axios';
  }
 </script>
 <template>
-    <h2 class="text-center">Your Webistes</h2>
+    <div class="mt-3">
+        <h2 class="text-center">Your Webistes</h2>
+    </div>
+
     <div class="container-lg">
         <div class="site-list" v-if="websites.length > 0">
             <div class="card" v-for="website in websites" :key="website.id">
-                <p>Name: {{ website.name }}</p>
-                <p>Url: <a class="black" :href="website.url" target="_blank">{{ website.url }}</a></p>
-                <p :class="{ 'green': website.is_online, 'red': !website.is_online }">Status: {{ website.is_online ? '✅ Online' : '❌ Offline' }}</p>
-                <p>Last Updated: {{ formatDate(website.updated_at) }}</p>
+                <p class="mb-2">Name: {{ website.name }}</p>
+                <p class="mb-2">Url: <a class="black" :href="website.url" target="_blank">{{ website.url }}</a></p>
+                <p :class="{ 'green': website.is_online, 'red': !website.is_online }" class="mb-2">Status: {{ website.is_online ? '✅ Online' : '❌ Offline' }}</p>
+                <p class="mb-2">Last Updated: {{ formatDate(website.updated_at) }}</p>
                 <Link :href="`web/delete/${website.id}`" method="DELETE">Delete</Link>
+
             </div>
         </div>
         <div v-else>
